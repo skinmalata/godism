@@ -600,6 +600,11 @@ em.acc {
   color: var(--primary);
 }
 
+.rotating-word {
+  display: inline-block;
+  transition: opacity 0.3s ease;
+}
+
 .hero-text {
   font-size: 19px;
   line-height: 1.7;

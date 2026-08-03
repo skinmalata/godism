@@ -93,6 +93,21 @@
     });
   }
 
+  /* Rotating hero word */
+  var rotatingEl = document.querySelector(".rotating-word");
+  if (rotatingEl) {
+    var words = ["Consciousness", "Likeness", "Awareness", "Inclusive"];
+    var wordIndex = 0;
+    setInterval(function () {
+      rotatingEl.style.opacity = 0;
+      setTimeout(function () {
+        wordIndex = (wordIndex + 1) % words.length;
+        rotatingEl.textContent = words[wordIndex];
+        rotatingEl.style.opacity = 1;
+      }, 300);
+    }, 6000);
+  }
+
   /* Marquee: duplicate track contents for seamless loop */
   document.querySelectorAll(".marquee-track").forEach(function (track) {
     var items = track.children;
