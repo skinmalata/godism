@@ -2063,7 +2063,9 @@ textarea.form-control {
 
   .hero-media {
     width: 100%;
-    min-height: 360px;
+    min-height: clamp(300px, 46vh, 420px);
+    -webkit-mask-image: none;
+    mask-image: none;
   }
 
   .hero-media::after {
@@ -2163,23 +2165,51 @@ textarea.form-control {
   }
 
   .hero-media {
-    min-height: 260px;
+    min-height: clamp(240px, 38vh, 300px);
   }
 
   .hero-content {
     padding: 40px 24px 80px;
   }
 
+  .hero-title {
+    font-size: clamp(40px, 11vw, 54px);
+  }
+
+  .hero-text {
+    font-size: 17px;
+    margin-bottom: 30px;
+  }
+
   .hero-counter {
     font-size: 44px;
   }
 
+  .hero-counter .suffix {
+    font-size: 30px;
+  }
+
   .hero-meta {
-    gap: 18px;
+    align-items: flex-start;
+    gap: 20px;
   }
 
   .hero-meta-divider {
     display: none;
+  }
+
+  .hero-meta-label {
+    font-size: 16px;
+  }
+
+  .btn-play-icon {
+    width: 78px;
+    height: 78px;
+  }
+
+  .btn-play-icon svg {
+    width: 20px;
+    height: 20px;
   }
 
   .pillars {
@@ -2278,46 +2308,6 @@ textarea.form-control {
 
   .mobile-nav .mobile-nav-cta {
     margin-top: 30px;
-  }
-
-  .hero-media {
-    -webkit-mask-image: none;
-    mask-image: none;
-  }
-
-  .hero-title {
-    font-size: clamp(40px, 11vw, 54px);
-  }
-
-  .hero-text {
-    font-size: 17px;
-    margin-bottom: 30px;
-  }
-
-  .hero-meta {
-    gap: 20px;
-  }
-
-  .hero-counter {
-    font-size: 40px;
-  }
-
-  .hero-counter .suffix {
-    font-size: 28px;
-  }
-
-  .hero-meta-label {
-    font-size: 16px;
-  }
-
-  .btn-play-icon {
-    width: 78px;
-    height: 78px;
-  }
-
-  .btn-play-icon svg {
-    width: 20px;
-    height: 20px;
   }
 
   .btn {
@@ -2427,15 +2417,41 @@ textarea.form-control {
 
 @media (max-width: 480px) {
   .hero-media {
-    min-height: 220px;
+    min-height: clamp(190px, 34vh, 240px);
   }
 
   .hero-title {
-    font-size: 38px;
+    font-size: clamp(32px, 10.5vw, 38px);
   }
 
   .hero-content {
-    padding: 34px 22px 64px;
+    padding: 30px 22px 64px;
+  }
+
+  .hero-text {
+    margin-bottom: 26px;
+  }
+
+  .hero-counter {
+    font-size: 38px;
+  }
+
+  .hero-counter .suffix {
+    font-size: 26px;
+  }
+
+  .hero-meta-label {
+    font-size: 15px;
+  }
+
+  .btn-play-icon {
+    width: 68px;
+    height: 68px;
+  }
+
+  .btn-play-icon svg {
+    width: 18px;
+    height: 18px;
   }
 
   .pillars {
@@ -2488,6 +2504,19 @@ textarea.form-control {
 }
 
 @media (max-height: 640px) and (max-width: 767px) {
+  .hero-media {
+    min-height: 170px;
+  }
+
+  .hero-content {
+    padding-top: 24px;
+    padding-bottom: 46px;
+  }
+
+  .hero-meta {
+    margin-top: 16px;
+  }
+
   .mobile-nav {
     padding-top: 70px;
     padding-bottom: 40px;
