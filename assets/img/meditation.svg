@@ -5,35 +5,35 @@
       <stop offset="100%" stop-color="#070708"/>
     </linearGradient>
     <radialGradient id="mglow" cx="50%" cy="30%" r="42%">
-      <stop offset="0%" stop-color="#E4ED64" stop-opacity="0.38"/>
-      <stop offset="55%" stop-color="#E4ED64" stop-opacity="0.06"/>
+      <stop offset="0%" stop-color="#FB923C" stop-opacity="0.38"/>
+      <stop offset="55%" stop-color="#FB923C" stop-opacity="0.06"/>
       <stop offset="100%" stop-color="#0b0b0b" stop-opacity="0"/>
     </radialGradient>
   </defs>
   <rect width="800" height="1000" fill="url(#msky)"/>
   <rect width="800" height="1000" fill="url(#mglow)"/>
-  <g fill="none" stroke="#E4ED64" stroke-opacity="0.16" stroke-width="1.2">
+  <g fill="none" stroke="#FB923C" stroke-opacity="0.16" stroke-width="1.2">
     <circle cx="400" cy="300" r="80"/>
     <circle cx="400" cy="300" r="130"/>
     <circle cx="400" cy="300" r="185"/>
     <circle cx="400" cy="300" r="245"/>
     <circle cx="400" cy="300" r="310"/>
   </g>
-  <path d="M400 300 C 470 300 470 260 400 258 C 400 258 400 242 400 300 Z" fill="none" stroke="#E4ED64" stroke-opacity="0.7" stroke-width="2.5" stroke-linecap="round"/>
-  <g fill="none" stroke="#E4ED64" stroke-opacity="0.5" stroke-width="2" stroke-linecap="round">
+  <path d="M400 300 C 470 300 470 260 400 258 C 400 258 400 242 400 300 Z" fill="none" stroke="#FB923C" stroke-opacity="0.7" stroke-width="2.5" stroke-linecap="round"/>
+  <g fill="none" stroke="#FB923C" stroke-opacity="0.5" stroke-width="2" stroke-linecap="round">
     <path d="M400 300 q 22 -30 0 -58"/>
     <path d="M400 300 q -22 -30 0 -58"/>
     <path d="M400 300 q 34 -18 52 -40"/>
     <path d="M400 300 q -34 -18 -52 -40"/>
   </g>
-  <path d="M400 320 C 430 320 452 344 452 382 C 452 424 420 470 400 470 C 380 470 348 424 348 382 C 348 344 370 320 400 320 Z" fill="#E4ED64" fill-opacity="0.95"/>
+  <path d="M400 320 C 430 320 452 344 452 382 C 452 424 420 470 400 470 C 380 470 348 424 348 382 C 348 344 370 320 400 320 Z" fill="#FB923C" fill-opacity="0.95"/>
   <circle cx="400" cy="380" r="5" fill="#141416"/>
-  <path d="M400 470 C 470 470 490 520 470 560 L 330 560 C 310 520 330 470 400 470 Z" fill="#1a1a1c" stroke="#E4ED64" stroke-opacity="0.2" stroke-width="1"/>
-  <path d="M400 560 L 390 760 L 400 790 L 410 760 Z" fill="#E4ED64" fill-opacity="0.12"/>
-  <ellipse cx="400" cy="800" rx="90" ry="26" fill="#E4ED64" fill-opacity="0.14"/>
-  <ellipse cx="400" cy="800" rx="140" ry="38" fill="none" stroke="#E4ED64" stroke-opacity="0.12" stroke-width="1"/>
-  <circle cx="180" cy="140" r="2" fill="#E4ED64" fill-opacity="0.6"/>
-  <circle cx="640" cy="190" r="2" fill="#E4ED64" fill-opacity="0.5"/>
-  <circle cx="600" cy="700" r="1.6" fill="#E4ED64" fill-opacity="0.45"/>
-  <circle cx="170" cy="560" r="1.6" fill="#E4ED64" fill-opacity="0.45"/>
+  <path d="M400 470 C 470 470 490 520 470 560 L 330 560 C 310 520 330 470 400 470 Z" fill="#1a1a1c" stroke="#FB923C" stroke-opacity="0.2" stroke-width="1"/>
+  <path d="M400 560 L 390 760 L 400 790 L 410 760 Z" fill="#FB923C" fill-opacity="0.12"/>
+  <ellipse cx="400" cy="800" rx="90" ry="26" fill="#FB923C" fill-opacity="0.14"/>
+  <ellipse cx="400" cy="800" rx="140" ry="38" fill="none" stroke="#FB923C" stroke-opacity="0.12" stroke-width="1"/>
+  <circle cx="180" cy="140" r="2" fill="#FB923C" fill-opacity="0.6"/>
+  <circle cx="640" cy="190" r="2" fill="#FB923C" fill-opacity="0.5"/>
+  <circle cx="600" cy="700" r="1.6" fill="#FB923C" fill-opacity="0.45"/>
+  <circle cx="170" cy="560" r="1.6" fill="#FB923C" fill-opacity="0.45"/>
 </svg>

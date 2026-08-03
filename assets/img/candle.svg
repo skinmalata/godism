@@ -5,35 +5,35 @@
       <stop offset="100%" stop-color="#070708"/>
     </linearGradient>
     <radialGradient id="cglow" cx="50%" cy="34%" r="45%">
-      <stop offset="0%" stop-color="#E4ED64" stop-opacity="0.4"/>
-      <stop offset="55%" stop-color="#E4ED64" stop-opacity="0.06"/>
+      <stop offset="0%" stop-color="#FB923C" stop-opacity="0.4"/>
+      <stop offset="55%" stop-color="#FB923C" stop-opacity="0.06"/>
       <stop offset="100%" stop-color="#0b0b0b" stop-opacity="0"/>
     </radialGradient>
     <radialGradient id="flame" cx="50%" cy="72%" r="60%">
       <stop offset="0%" stop-color="#fff6c9"/>
-      <stop offset="45%" stop-color="#E4ED64"/>
+      <stop offset="45%" stop-color="#FB923C"/>
       <stop offset="100%" stop-color="#8d941f"/>
     </radialGradient>
   </defs>
   <rect width="800" height="1000" fill="url(#csky)"/>
   <rect width="800" height="1000" fill="url(#cglow)"/>
-  <g fill="none" stroke="#E4ED64" stroke-opacity="0.14" stroke-width="1.2">
+  <g fill="none" stroke="#FB923C" stroke-opacity="0.14" stroke-width="1.2">
     <circle cx="400" cy="340" r="120"/>
     <circle cx="400" cy="340" r="190"/>
     <circle cx="400" cy="340" r="265"/>
     <circle cx="400" cy="340" r="345"/>
   </g>
-  <g stroke="#E4ED64" stroke-opacity="0.10" stroke-width="1.2">
+  <g stroke="#FB923C" stroke-opacity="0.10" stroke-width="1.2">
     <line x1="400" y1="340" x2="60" y2="120"/>
     <line x1="400" y1="340" x2="60" y2="340"/>
     <line x1="400" y1="340" x2="740" y2="120"/>
     <line x1="400" y1="340" x2="740" y2="340"/>
   </g>
-  <rect x="338" y="760" width="124" height="18" rx="4" fill="#E4ED64"/>
-  <rect x="352" y="730" width="96" height="40" rx="4" fill="#2a2a2a" stroke="#E4ED64" stroke-opacity="0.25" stroke-width="1"/>
+  <rect x="338" y="760" width="124" height="18" rx="4" fill="#FB923C"/>
+  <rect x="352" y="730" width="96" height="40" rx="4" fill="#2a2a2a" stroke="#FB923C" stroke-opacity="0.25" stroke-width="1"/>
   <path d="M400 690 C 360 690 352 620 352 580 C 352 540 400 470 400 470 C 400 470 448 540 448 580 C 448 620 440 690 400 690 Z" fill="url(#flame)"/>
-  <ellipse cx="400" cy="470" rx="60" ry="16" fill="#E4ED64" fill-opacity="0.55"/>
-  <path d="M400 700 C 330 700 310 640 330 600 L 470 600 C 490 640 470 700 400 700 Z" fill="#1a1a1c" stroke="#E4ED64" stroke-opacity="0.18" stroke-width="1"/>
-  <circle cx="400" cy="690" r="4" fill="#E4ED64"/>
-  <circle cx="400" cy="690" r="10" fill="none" stroke="#E4ED64" stroke-opacity="0.35" stroke-width="1"/>
+  <ellipse cx="400" cy="470" rx="60" ry="16" fill="#FB923C" fill-opacity="0.55"/>
+  <path d="M400 700 C 330 700 310 640 330 600 L 470 600 C 490 640 470 700 400 700 Z" fill="#1a1a1c" stroke="#FB923C" stroke-opacity="0.18" stroke-width="1"/>
+  <circle cx="400" cy="690" r="4" fill="#FB923C"/>
+  <circle cx="400" cy="690" r="10" fill="none" stroke="#FB923C" stroke-opacity="0.35" stroke-width="1"/>
 </svg>
