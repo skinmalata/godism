@@ -133,7 +133,7 @@
         alert("Please fill in every field to send your message.");
         return;
       }
-      var subject = encodeURIComponent("Order / Message via Godism Church website");
+      var subject = encodeURIComponent("Order / Message via Godism website");
       var body = encodeURIComponent(
         "Name: " + (data.name || "") +
         "\nEmail: " + (data.email || "") +
